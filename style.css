@@ -1,37 +1,37 @@
-/* --- Общие стили для всей страницы --- */
+
 body {
-    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Современный и читаемый шрифт */
-    background-color: #f0f2f5; /* Светло-серый фон */
-    color: #333; /* Основной цвет текста */
-    line-height: 1.6; /* Межстрочный интервал */
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 20px;
 }
 
-/* --- Контейнер для резюме --- */
+
 .resume {
-    max-width: 800px; /* Ограничение ширины для удобного чтения */
-    margin: 30px auto; /* Центрирование на странице */
-    background-color: #ffffff; /* Белый фон для основной части */
+    max-width: 800px;
+    margin: 30px auto; 
+    background-color: #ffffff;
     padding: 40px;
-    border-radius: 10px; /* Скругленные углы */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border: 1px solid #e0e0e0;
 }
 
-/* --- Стили для шапки (header) --- */
+
 .header {
-    text-align: center; /* Текст по центру */
+    text-align: center; 
     padding-bottom: 20px;
-    border-bottom: 2px solid #e9ecef; /* Разделительная линия */
+    border-bottom: 2px solid #e9ecef; 
     margin-bottom: 30px;
 }
 
 .name {
     margin: 0;
-    font-size: 2.8em; /* Большой размер для имени */
+    font-size: 2.8em;
     font-weight: 600;
-    color: #2c3e50; /* Темно-синий цвет */
+    color: #2c3e50;
 }
 
 .job-title {
@@ -73,13 +73,13 @@ body {
 .skills {
     list-style: none; 
     padding: 0;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap; 
-    gap: 10px; 
+    gap: 10px;
 }
 
 .skills li {
-    background-color: #3498db; 
+    background-color: #3498db;
     color: #ffffff; 
     padding: 8px 15px; 
     border-radius: 20px; 
