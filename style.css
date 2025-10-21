@@ -1,0 +1,94 @@
+/* --- Общие стили для всей страницы --- */
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Современный и читаемый шрифт */
+    background-color: #f0f2f5; /* Светло-серый фон */
+    color: #333; /* Основной цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- Контейнер для резюме --- */
+.resume {
+    max-width: 800px; /* Ограничение ширины для удобного чтения */
+    margin: 30px auto; /* Центрирование на странице */
+    background-color: #ffffff; /* Белый фон для основной части */
+    padding: 40px;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Легкая тень для объема */
+    border: 1px solid #e0e0e0;
+}
+
+/* --- Стили для шапки (header) --- */
+.header {
+    text-align: center; /* Текст по центру */
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e9ecef; /* Разделительная линия */
+    margin-bottom: 30px;
+}
+
+.name {
+    margin: 0;
+    font-size: 2.8em; /* Большой размер для имени */
+    font-weight: 600;
+    color: #2c3e50; /* Темно-синий цвет */
+}
+
+.job-title {
+    margin: 5px 0;
+    font-size: 1.3em;
+    font-weight: 300; 
+    color: #3498db; 
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact-info a { 
+    text-decoration: none;
+    color: #3498db;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 1.6em;
+    color: #2c3e50;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 20px;
+}
+
+
+.skills {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+.skills li {
+    background-color: #3498db; 
+    color: #ffffff; 
+    padding: 8px 15px; 
+    border-radius: 20px; 
+    font-size: 0.95em;
+    font-weight: 500;
+    transition: transform 0.2s; 
+}
+
+.skills li:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
